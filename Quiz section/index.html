@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="space">
+        <!-- Star Animation -->
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+
+        <!-- Quiz Game Container -->
+        <div class="quiz-container">
+            <h1>Space Quiz</h1>
+            <div id="question-container">
+                <p id="question">Question will go here</p>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+            <button id="next-btn" class="next-btn hide">Next Question</button>
+
+            <!-- Correct and Incorrect Count Section -->
+            <div id="scoreboard">
+                <p>Correct: <span id="correct-count">0</span></p>
+                <p>Incorrect: <span id="incorrect-count">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
